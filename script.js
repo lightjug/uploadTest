@@ -8,9 +8,6 @@ myApp.controller('TabController',function($scope){
 		,{text:"タブ２",userID:"user2"}
 		,{text:"タブ３",userID:"user3"}
 	];
-});
-
-$(function(){
-    $('#tabArea').sortable();
+	$('#tabArea').sortable();
 });
 
