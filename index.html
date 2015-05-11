@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+<head>
+  <title>kyorotter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="tab.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body id="viewList" ng-controller="TabController">
+  <div id="tabArea" >
+  	<div id="2" class="tab" ng-repeat="tab in tabList">
+  	  {{tab.text}}
+  	</div>
+  	<div class="clear"></div>
+  </div>
+</body>
+</html>
