@@ -26,8 +26,8 @@ div.tab{
 	-moz-border-radius-topright: 6px;
 }
 
-.tab_Target{
-  background-color:#FDD;
+.tab:hover{
+  background-color:#DFD;
 }
 
 .clear {
